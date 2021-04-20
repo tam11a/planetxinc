@@ -1,0 +1,17 @@
+.services-watermark{
+    flex: 0.5;
+    font-size: 0.7em;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+#watermark-here{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#watermark-here svg{
+    height: 300px;
+    width: 500px;
+    right: 0;
+}

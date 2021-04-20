@@ -1,0 +1,33 @@
+.toggle-container{
+    position: relative;
+    width: 100px;
+    height: 48px;
+}
+.toggle-btn{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.toggle-circle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 34px;
+    height: 34px;
+    left: 10px;
+    border-radius: 50%;
+    background: var(--primary-color-light);
+}
+.toggle-circle i{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary-bg-light);
+}
+.toggle-circle-checked{
+    left: unset;
+    right: 10px;
+}

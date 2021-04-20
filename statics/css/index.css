@@ -1,0 +1,19 @@
+.anObj{
+    height: 400px;
+    width: 400px;
+    border-radius: 250px;
+}
+.rm-15{
+    margin-top: 15px;
+    margin-right: 15px;
+}
+#myWave{
+    position: absolute;
+    transform: translateY(15px);
+    bottom: 0;
+    left: 0;
+    filter: drop-shadow(5px 5px 10px var(--secondary-shadow-glow-light));
+}
+.header-txtbx{
+    z-index: 20;
+}

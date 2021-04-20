@@ -1,0 +1,77 @@
+body{
+    background: var(--primary-bg-light);
+    color: var(--primary-color-light);
+}
+button{
+    padding: 10px;
+    border: none;
+    background: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    color: var(--primary-color-light);
+}
+.neumorph-box,
+.neumorph-btn,
+.neumorph-btn-inner:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--primary-shadow-dark-light),
+             -4px -4px 10px var(--primary-shadow-glow-light);
+}
+.neumorph-box-inner,
+.neumorph-btn-inner,
+.neumorph-btn:hover{
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px var(--primary-shadow-dark-light),
+             inset -4px -4px 10px var(--primary-shadow-glow-light);
+}
+.neumorph-box-cradius,
+.neumorph-btn-cradius,
+.neumorph-btn-inner-cradius:hover{
+    box-shadow: 5px 5px 10px var(--primary-shadow-dark-light),
+             -4px -4px 10px var(--primary-shadow-glow-light);
+}
+.neumorph-box-inner-cradius,
+.neumorph-btn-inner-cradius,
+.neumorph-btn-cradius:hover{
+    box-shadow: inset 5px 5px 10px var(--primary-shadow-dark-light),
+             inset -4px -4px 10px var(--primary-shadow-glow-light);
+}
+
+
+
+.neumorph-box-s,
+.neumorph-btn-s,
+.neumorph-btn-s-inner:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--secondary-shadow-dark-light),
+             -4px -4px 10px var(--secondary-shadow-glow-light);
+}
+.neumorph-box-s-inner,
+.neumorph-btn-s-inner,
+.neumorph-btn-s:hover{
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 10px var(--secondary-shadow-dark-light),
+             inset -4px -4px 10px var(--secondary-shadow-glow-light);
+}
+.neumorph-box-s-cradius,
+.neumorph-btn-s-cradius,
+.neumorph-btn-s-inner-cradius:hover{
+    box-shadow: 5px 5px 10px var(--secondary-shadow-dark-light),
+             -4px -4px 10px var(--secondary-shadow-glow-light);
+}
+.neumorph-box-s-inner-cradius,
+.neumorph-btn-s-inner-cradius,
+.neumorph-btn-s-cradius:hover{
+    box-shadow: inset 5px 5px 10px var(--secondary-shadow-dark-light),
+             inset -4px -4px 10px var(--secondary-shadow-glow-light);
+}
+
+.neumorphic-h1{
+    color: transparent;
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--secondary-color-light);
+    font-size: 4em;
+  }

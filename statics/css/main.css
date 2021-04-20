@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.centered{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.msg-top{
+    width: 98%;
+    margin: 10px 0;
+    padding: 5px;
+    text-align: center;
+}
+.unselectable{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
