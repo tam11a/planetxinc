@@ -17,3 +17,11 @@
 .header-txtbx{
     z-index: 20;
 }
+@media (max-width: 540px) {
+    .anObj{
+        display: none;
+    }
+    #myWave{
+        transform: translateY(0);
+    }
+}

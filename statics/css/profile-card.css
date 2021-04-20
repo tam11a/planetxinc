@@ -36,3 +36,8 @@ i.card-icon{
     font-size: 1.4em;
     margin: 10px;
 }
+@media (max-width: 540px) {
+    .card-container{
+        display: none;
+    }
+}

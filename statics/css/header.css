@@ -36,3 +36,11 @@ header{
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+@media (max-width: 540px) {
+    header{
+        padding: 5px 10px;
+    }
+    .h-nav{
+        display: none;
+    }
+}

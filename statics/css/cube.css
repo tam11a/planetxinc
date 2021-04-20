@@ -31,3 +31,12 @@
     height: 50px;
     width: 100px;
 }
+@media (max-width: 540px) {
+    .cube{
+        width: 70%;
+    }
+    .cube-child-icon{
+        height: 40px;
+        width: 80px;
+    }
+}

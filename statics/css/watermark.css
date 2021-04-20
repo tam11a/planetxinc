@@ -22,3 +22,11 @@
 .show-svg{
     display: unset;
 }
+@media (max-width: 540px) {
+    #watermark-here{
+        display: none;
+    }   
+    .services-icon{
+        display: none;
+    }
+}
