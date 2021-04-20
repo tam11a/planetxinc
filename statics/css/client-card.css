@@ -30,7 +30,22 @@
 .client-card-small{
     padding: 0;
     flex: 1;
+    filter: grayscale(100%);
+    transition: filter 0.6s;
+}
+.client-card-small:hover{
+    filter: grayscale(0);
+    transition: filter 0.6s;
 }
 @media (max-width: 540px) {
-    
+ .client-div-small{
+     width: 100%;
+ }   
+ .hide-on-phone{
+     display: none;
+ }
+ 
+.client-card-small{
+    filter: grayscale(0);
+}
 }

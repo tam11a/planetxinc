@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
+    margin-bottom: 100px;
 }
 .dark-child{
     background: var(--secondary-bg-light);
@@ -58,6 +59,7 @@
     .container-child{
         flex-direction: column;
         padding: 0 10px;
+        margin-bottom: 0;
     }
     .half-div,
     .quarter-div{

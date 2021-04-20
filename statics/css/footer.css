@@ -1,3 +1,4 @@
+
 .short-msg-form{
     display: flex;
     flex-direction: column;
@@ -14,10 +15,17 @@ form textarea{
     resize: none;
     height: 180px;
 }
+.footer-shortcuts{
+    margin-top: 20px;
+}
 .footer-shortcuts > *{
     margin: 10px 0;
     font-weight: bold;
 }
 .copyright-issue{
     margin-top: 70px;
+    
+}
+@media (max-width: 540px) {
+    
 }

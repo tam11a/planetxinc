@@ -24,4 +24,7 @@
     #myWave{
         transform: translateY(0);
     }
+    .as-0{
+        font-size: 12px;
+    }
 }
