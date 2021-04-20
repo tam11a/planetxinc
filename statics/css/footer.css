@@ -1,0 +1,23 @@
+.short-msg-form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.short-msg-form > *{
+    margin: 10px;
+}
+form input,
+form textarea{
+    text-transform: none;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+.footer-shortcuts > *{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.copyright-issue{
+    margin-top: 70px;
+}

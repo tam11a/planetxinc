@@ -15,9 +15,13 @@
     <link rel='stylesheet' type='text/css' media='screen' href='statics/css/neumorphism.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='statics/css/index.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='statics/css/cube.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/profile-card.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/client-card.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/footer.css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
     <script src='statics/js/main.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -32,11 +36,11 @@
             <img src="statics/icons/planetx-icon/planet-x-logo.png">
         </a>
         <ul class="h-nav">
-            <li>home</li>
-            <li>our services</li>
-            <li>about us</li>
-            <li>our clients</li>
-            <li>contact</li>
+            <a href="#home-nav"><li>home</li></a>
+            <a href="#services-nav"><li>our services</li></a>
+            <a href="#about-nav"><li>about us</li></a>
+            <a href="#clients-nav"><li>our clients</li></a>
+            <a href="#contact-nav"><li>contact</li></a>
         </ul>
         <div class="toggle-container unselectable">
             <div class="toggle-circle neumorph-box-cradius"> <i class="material-icons toggle_theme_icon">dark_mode</i>
@@ -47,14 +51,14 @@
     <!-- Scrollable Body -->
     <div class="body-container" id="myBody">
 
-        <div class="container-child">
+        <div class="container-child" id="home-nav">
             <div class="text-box header-txtbx">
                 <h3>MAKE YOUR BUSINESS</h3>
                 <h1>Prosper with Our Solutions</h1>
                 <p>More than 5000 clients are satisfied with our consulting program!</p>
                 <div>
-                    <button class="rm-15 neumorph-btn">get in touch</button>
-                    <button class="rm-15 neumorph-btn">learn more</button>
+                    <a href="#contact-nav"><button class="rm-15 neumorph-btn">get in touch</button></a>
+                    <a href="#services-nav"><button class="rm-15 neumorph-btn">learn more</button></a>
                 </div>
             </div>
             <div class="anObj neumorph-box-cradius">
@@ -67,7 +71,7 @@
             </svg>
         </div>
 
-        <div class="container-child dark-child">
+        <div class="container-child dark-child dark-wave" id="services-nav">
             <div class="text-box half-div">
                 <div class="neumorphic-h1">Our Services</div>
                 <p>Check our services to select what is the right solution for you! </p>
@@ -286,13 +290,108 @@
             </div>
         <link rel="stylesheet" href="statics/css/watermark.css">
         <div class="services-watermark">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="var(--secondary-color-light)" class="services-icon hidden-svg show-svg"><g id="Mechanism"><path d="M61.165,40.014l-3.96-.66a14.1,14.1,0,0,0-.581-1.407l2.332-3.265a1,1,0,0,0-.107-1.288l-4.243-4.243a1,1,0,0,0-1.288-.107l-3.265,2.332c-.3-.142-.609-.257-.918-.379l.108-.027A1,1,0,0,0,50,30V22a1,1,0,0,0-.758-.97l-6.259-1.56a.515.515,0,0,1-.351-.324c-.009-.022-.018-.043-.028-.065a.564.564,0,0,1,.023-.477l3.32-5.529a1,1,0,0,0-.15-1.222L40.147,6.2a1,1,0,0,0-1.222-.15L33.408,9.365a.571.571,0,0,1-.489.031l-.065-.028a.518.518,0,0,1-.324-.35l-1.56-6.26A1,1,0,0,0,30,2H22a1,1,0,0,0-.97.758L19.47,9.017a.515.515,0,0,1-.324.351l-.065.028a.56.56,0,0,1-.477-.023l-5.529-3.32a1,1,0,0,0-1.222.15L6.2,11.853a1,1,0,0,0-.15,1.222l3.312,5.517a.567.567,0,0,1,.031.489c-.01.022-.019.043-.028.065a.516.516,0,0,1-.35.324l-6.26,1.56A1,1,0,0,0,2,22v8a1,1,0,0,0,.758.97l6.259,1.56a.517.517,0,0,1,.351.324c.009.022.018.043.028.065a.562.562,0,0,1-.023.476l-3.32,5.52a1,1,0,0,0,.15,1.222l5.65,5.659a1,1,0,0,0,1.222.151l5.517-3.312a.56.56,0,0,1,.489-.031l.065.028a.516.516,0,0,1,.324.35l1.56,6.26A1,1,0,0,0,22,50h8a1,1,0,0,0,.97-.757L31,49.135c.122.309.237.621.379.918l-2.332,3.265a1,1,0,0,0,.107,1.288l4.243,4.243a1,1,0,0,0,1.288.107l3.265-2.332a14.1,14.1,0,0,0,1.407.581l.66,3.96A1,1,0,0,0,41,62h6a1,1,0,0,0,.986-.835l.66-3.96a14.1,14.1,0,0,0,1.407-.581l3.265,2.332a1,1,0,0,0,1.288-.107l4.243-4.243a1,1,0,0,0,.107-1.288l-2.332-3.265a14.1,14.1,0,0,0,.581-1.407l3.96-.66A1,1,0,0,0,62,47V41A1,1,0,0,0,61.165,40.014ZM21.41,42.5a2.522,2.522,0,0,0-1.5-1.713c-.015-.006-.029-.013-.044-.018h0a2.568,2.568,0,0,0-2.3.147l-4.86,2.917L8.169,39.276,11.1,34.413a2.565,2.565,0,0,0,.139-2.285h0c-.005-.015-.012-.029-.018-.044A2.522,2.522,0,0,0,9.5,30.59L4,29.219V22.781L9.5,21.41a2.522,2.522,0,0,0,1.713-1.5c.006-.015.013-.029.018-.044h0a2.568,2.568,0,0,0-.147-2.3l-2.918-4.86,4.546-4.546L17.587,11.1a2.568,2.568,0,0,0,2.285.139h0c.015-.005.029-.012.044-.018A2.522,2.522,0,0,0,21.41,9.5L22.781,4h6.438L30.59,9.5a2.522,2.522,0,0,0,1.5,1.713c.015.006.029.013.044.018h0a2.572,2.572,0,0,0,2.3-.147l4.86-2.918,4.546,4.546-2.926,4.872a2.565,2.565,0,0,0-.139,2.285h0c0,.015.012.029.018.044a2.522,2.522,0,0,0,1.714,1.5L48,22.781v4.136l-.014-.082A1,1,0,0,0,47,26H41a1,1,0,0,0-.986.835l-.66,3.96a14.1,14.1,0,0,0-1.407.581l-.932-.665a12.064,12.064,0,1,0-6.3,6.3l.665.931a15.062,15.062,0,0,0-.563,1.405l-3.978.663A1,1,0,0,0,26,41v6a1,1,0,0,0,.835.986l.082.014H22.781Zm7.634-7.816.483.675a10,10,0,1,1,5.83-5.83l-.675-.483a1,1,0,0,0-1.288.107l-4.243,4.243A1,1,0,0,0,29.044,34.682ZM60,46.153l-3.722.62a1,1,0,0,0-.793.7,11.966,11.966,0,0,1-.908,2.2,1,1,0,0,0,.067,1.054l2.192,3.07-3.044,3.044-3.07-2.192a1,1,0,0,0-1.054-.067,11.966,11.966,0,0,1-2.2.908,1,1,0,0,0-.7.793L46.153,60H41.847l-.62-3.722a1,1,0,0,0-.7-.793,11.966,11.966,0,0,1-2.2-.908,1,1,0,0,0-1.054.067l-3.07,2.192-3.044-3.044,2.192-3.07a1,1,0,0,0,.067-1.054,11.966,11.966,0,0,1-.908-2.2,1,1,0,0,0-.793-.7L28,46.153V41.847l3.722-.62a1.028,1.028,0,0,0,.783-.667,13.4,13.4,0,0,1,.918-2.228,1,1,0,0,0-.067-1.054l-2.192-3.07,3.044-3.044,3.07,2.192a1,1,0,0,0,1.054.067,11.966,11.966,0,0,1,2.2-.908,1,1,0,0,0,.7-.793L41.847,28h4.306l.62,3.722a1,1,0,0,0,.7.793,11.966,11.966,0,0,1,2.2.908,1,1,0,0,0,1.054-.067l3.07-2.192,3.044,3.044-2.192,3.07a1,1,0,0,0-.067,1.054,11.966,11.966,0,0,1,.908,2.2,1,1,0,0,0,.793.7l3.722.62Z"/><path d="M44,35a9,9,0,1,0,9,9A9.011,9.011,0,0,0,44,35Zm0,16a7,7,0,1,1,7-7A7.008,7.008,0,0,1,44,51Z"/><rect x="45" y="7" width="2" height="2"/><path d="M56,28h2V8a1,1,0,0,0-1-1H49V9h7Z"/><rect x="26" y="58" width="2" height="2"/><path d="M9,45H7V59a1,1,0,0,0,1,1H24V58H9Z"/></g></svg>
             <div class="neumorphic-h1" id="watermark-here"></div>
         </div>
         </div>
-        <div class="container-child">
-
+        <div class="container-child" id="about-nav">
+            <div class="card-container">
+                <div class="card neumorph-box-inner">
+                    <img src="statics/images/profile-images/img1.jpg" class="card-img neumorph-box"/>
+                    <div class="card-texts">
+                        <p class="card-name">Ali Mohammad Hafiz</p>
+                        <p class="card-name-2">Managing Diractor</p>
+                        <p class="card-icons">
+                            <a href="#"><i class="fa fa-facebook card-icon"></i></a>
+                            <a href="#"><i class="fa fa-instagram card-icon"></i></a>
+                            <a href="#"><i class="fa fa-linkedin card-icon"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card neumorph-box-inner">
+                    <img src="statics/images/profile-images/img2.jpg" class="card-img neumorph-box"/>
+                    <div class="card-texts">
+                        <p class="card-name">Mohammad Taqi Yasir</p>
+                        <p class="card-name-2">Chairman</p>
+                        <p class="card-icons">
+                            <a href="#"><i class="fa fa-facebook card-icon"></i></a>
+                            <a href="#"><i class="fa fa-instagram card-icon"></i></a>
+                            <a href="#"><i class="fa fa-linkedin card-icon"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-box quarter-div">
+                <div class="neumorphic-h1">About Us</div>
+                <p>We are a team of like-minded people who do business, generate ideas and realize them. Finance, Marketing, Jurisprudence and Business Economy are our directions and we know how to deal with many financial issues and how to do business in today’s reality and conditions. We are able to analyze any activity and provide with the bulk of solutions how to decrease your expense, use hidden opportunities and what spheres are good for investment.</p>
+                <div>
+                    <button class="rm-15 neumorph-btn">our team</button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container-divider centered neumorph-box dark-child"></div> -->
+        <div class="container-child container-col-flex" id="clients-nav">
+            <div class="neumorphic-h1">Our Clients</div>
+            <!-- <div class="client-div-large">
+                <div class="client-card-large neumorph-box">
+                    <img src="statics/icons/planetx-icon/planet-x-logo.png" class="client-card-img">
+                    <p class="client-card-title">#name</p>
+                    <a href="#" target="_blank"><button><i class="material-icons">open_in_new</i></button></a>
+                </div>
+                <div class="client-card-large neumorph-box">
+                    <img src="statics/icons/planetx-icon/planet-x-logo.png" class="client-card-img">
+                    <p class="client-card-title">#name</p>
+                    <a href="#" target="_blank"><button><i class="material-icons">open_in_new</i></button></a>
+                </div>
+                <div class="client-card-large neumorph-box">
+                    <img src="statics/icons/planetx-icon/planet-x-logo.png" class="client-card-img">
+                    <p class="client-card-title">#name</p>
+                    <a href="#" target="_blank"><button><i class="material-icons">open_in_new</i></button></a>
+                </div>
+            </div> -->
+            <div class="client-div-small">
+                <a href="#" class="client-card-small neumorph-box">
+                    <img src="statics/icons/planetx-icon/planet-x-logo.png" alt="" class="client-card-img">
+                </a>
+                <a href="#" class="client-card-small neumorph-box">
+                    <img src="statics/icons/planetx-icon/planet-x-logo.png" alt="" class="client-card-img">
+                </a>
+                <a href="#" class="client-card-small neumorph-box">
+                    <img src="statics/icons/planetx-icon/planet-x-logo.png" alt="" class="client-card-img">
+                </a>
+                <a href="#" class="client-card-small neumorph-box">
+                    <img src="statics/icons/planetx-icon/planet-x-logo.png" alt="" class="client-card-img">
+                </a>
+                <a href="#" class="client-card-small neumorph-box">
+                    <img src="statics/icons/planetx-icon/planet-x-logo.png" alt="" class="client-card-img">
+                </a>
+            </div>
+            <a href="#"><button class="neumorph-btn">All Our Clients</button></a>
+        </div>
+        <div class="container-child dark-child dark-wave-2 footer-div neumorph-box-cradius" id="contact-nav">
+            <form class="short-msg-form quarter-div">
+                <label><h2>Get in Touch</h2></label>
+                <input type="email" name="email" class="neumorph-box-inner" placeholder="example@gmail.com" autocomplete="off" >
+                <textarea name="message" class="neumorph-box-inner" placeholder="Aa..."></textarea>
+                <button type="submit" class="neumorph-btn">Send</button>
+            </form>
+            <div class="quarter-div container-col-flex footer-shortcuts">
+                <a href="#">Our Services</a>
+                <a href="#">Our Team</a>
+                <a href="#">Contact</a>
+                <p class="card-icons">
+                    <a href="#"><i class="fa fa-facebook card-icon"></i></a>
+                    <a href="#"><i class="fa fa-instagram card-icon"></i></a>
+                    <a href="#"><i class="fa fa-linkedin card-icon"></i></a>
+                </p>
+                <p class="copyright-issue">Planet X Inc. &copy; Copyright 2021</p>
+            </div>
+            <div class="anObj quarter-div neumorph-box-cradius">
+                <!-- Behuda Object -->
+            </div>
         </div>
     </div>
+    
     <script src="statics/js/stickyHeader.js"></script>
     <script src="statics/js/toggle_theme.js"></script>
     <script src="statics/js/services_hover.js"></script>

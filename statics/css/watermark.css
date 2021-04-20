@@ -10,8 +10,15 @@
     align-items: center;
     text-align: center;
 }
-#watermark-here svg{
+#watermark-here svg,
+.services-icon{
     height: 300px;
     width: 500px;
     right: 0;
+}
+.hidden-svg{
+    display: none;
+}
+.show-svg{
+    display: unset;
 }

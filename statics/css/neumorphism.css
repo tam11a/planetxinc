@@ -1,8 +1,28 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--primary-bg-light); 
+    box-shadow: inset 5px 5px 10px var(--primary-shadow-dark-light),
+             inset -4px -4px 10px var(--primary-shadow-glow-light);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color-light);
+    border-radius: 10px; 
+  }
+
 body{
     background: var(--primary-bg-light);
     color: var(--primary-color-light);
 }
-button{
+button,
+input,
+textarea{
     padding: 10px;
     border: none;
     background: none;
@@ -39,8 +59,6 @@ button{
              inset -4px -4px 10px var(--primary-shadow-glow-light);
 }
 
-
-
 .neumorph-box-s,
 .neumorph-btn-s,
 .neumorph-btn-s-inner:hover{
@@ -67,7 +85,6 @@ button{
     box-shadow: inset 5px 5px 10px var(--secondary-shadow-dark-light),
              inset -4px -4px 10px var(--secondary-shadow-glow-light);
 }
-
 .neumorphic-h1{
     color: transparent;
     -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
@@ -75,3 +92,12 @@ button{
     -webkit-text-stroke-color: var(--secondary-color-light);
     font-size: 4em;
   }
+
+.dark-btn{
+    color: var(--primary-bg-light);
+    background: var(--primary-color-light);
+}
+.dark-btn:hover{
+    background: var(--primary-bg-light);
+    color: var(--primary-color-light);
+}
