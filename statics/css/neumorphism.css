@@ -35,6 +35,7 @@ textarea{
 .neumorph-box,
 .neumorph-btn,
 .neumorph-btn-inner:hover{
+    margin: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px var(--primary-shadow-dark-light),
              -4px -4px 10px var(--primary-shadow-glow-light);
@@ -42,6 +43,7 @@ textarea{
 .neumorph-box-inner,
 .neumorph-btn-inner,
 .neumorph-btn:hover{
+    margin: 10px;
     border-radius: 10px;
     box-shadow: inset 5px 5px 10px var(--primary-shadow-dark-light),
              inset -4px -4px 10px var(--primary-shadow-glow-light);
@@ -92,7 +94,9 @@ textarea{
     -webkit-text-stroke-color: var(--secondary-color-light);
     font-size: 4em;
   }
-
+.neumorphic-title-h1{
+    font-size: 3em;
+}
 .dark-btn{
     color: var(--primary-bg-light);
     background: var(--primary-color-light);
@@ -100,4 +104,31 @@ textarea{
 .dark-btn:hover{
     background: var(--primary-bg-light);
     color: var(--primary-color-light);
+}
+.neumorph-price-card{
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+.neumorph-price-card .price{
+    font-size: 5em;
+}
+.neumorph-price-card h5{
+    margin-bottom: 20px;
+}
+.neumorph-price-card .price sup{
+    font-size: 0.3em;
+}
+.neumorph-price-card > p{
+    font-size: 0.8em;
+    margin: 5px 0;
+}
+.neumorph-price-card .neumorph-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
 }
