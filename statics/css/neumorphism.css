@@ -35,7 +35,6 @@ textarea{
 .neumorph-box,
 .neumorph-btn,
 .neumorph-btn-inner:hover{
-    margin: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px var(--primary-shadow-dark-light),
              -4px -4px 10px var(--primary-shadow-glow-light);
@@ -43,7 +42,6 @@ textarea{
 .neumorph-box-inner,
 .neumorph-btn-inner,
 .neumorph-btn:hover{
-    margin: 10px;
     border-radius: 10px;
     box-shadow: inset 5px 5px 10px var(--primary-shadow-dark-light),
              inset -4px -4px 10px var(--primary-shadow-glow-light);
@@ -131,4 +129,7 @@ textarea{
     justify-content: center;
     width: 100%;
     margin-top: 20px;
+}
+.mg-10px{
+    margin: 10px;
 }
