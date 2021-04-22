@@ -7,12 +7,14 @@
     justify-content: center;
     margin: 20px 0;
 }
-.client-div-small,
-.client-div-small-3{
+.client-div-small{
     width: 65%;
 }
 .client-div-small-2{
     width: 100%;
+}
+.client-div-small-3{
+    width: 80%;
 }
 .client-card-large,
 .client-card-small,
@@ -43,6 +45,7 @@
 .client-card-small-2{
     padding: 0;
     flex: 1;
+    max-width: 200px;
 }
 .client-card-small:hover{
     filter: grayscale(0);
@@ -61,6 +64,7 @@
 }
 .pad-10-child p{
     text-align: center;
+    font-size: 0.8em;
 }
 @media (max-width: 540px) {
  .client-div-small{
