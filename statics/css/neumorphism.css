@@ -133,6 +133,9 @@ textarea{
 .mg-10px{
     margin: 10px;
 }
+.pad-10px{
+    padding: 10px;
+}
 .neumorph-square-box{
     min-width: 300px;
     min-height: 300px;
@@ -140,6 +143,16 @@ textarea{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.neumorph-noSquare-box{
+    min-width: 300px;
+    min-height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
