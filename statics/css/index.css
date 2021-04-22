@@ -17,6 +17,16 @@
 .header-txtbx{
     z-index: 20;
 }
+.other-txtbx{
+    font-size: 1.2em;
+}
+.other-txtbx > p{
+    margin: 10px 0;
+}
+.other-txtbx ul{
+    margin-left: 30px;
+}
+
 @media (max-width: 540px) {
     .anObj{
         display: none;
