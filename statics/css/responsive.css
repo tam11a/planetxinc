@@ -1,0 +1,9 @@
+@media (max-width: 540px) {
+    .hxt-size{
+        font-size: 0.89em;
+    }    
+    .flex-x-to-y{
+        display: flex;
+        flex-direction: column;
+    }
+   }
