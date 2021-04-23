@@ -1,4 +1,12 @@
 @media (max-width: 540px) {
+    .color-picker-dropdown,
+    .h-nav > a,
+    button,
+    input,
+    textarea,
+    .toggle-btn{
+        cursor: none;
+    }
     .hxt-size{
         font-size: 0.89em;
     }    
