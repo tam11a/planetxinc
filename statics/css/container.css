@@ -61,10 +61,27 @@
     border-left: 3px solid var(--primary-color-light);
     padding-left: 15px;
 }
+.map-container{
+    width: 70%;
+}
+.map-2{
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+.map{
+    height: calc(100vh - 250px);
+    width: 100%;
+    border-radius: 10px;
+}
 #projects{
     margin-bottom: -0px;
 }
 @media (max-width: 540px) {
+    
+.map-container{
+    width: 100%;
+}
     #hideclinttitle,
     .hide-on-phone{
         display: none;
@@ -82,7 +99,9 @@
     .half-div,
     .quarter-div{
         width: 90%;
-        
+    }
+    .mg-on-phone{
+        margin-bottom: 150px;
     }
     .text-box{
         margin-top: 50%;

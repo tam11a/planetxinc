@@ -2,7 +2,7 @@ var color_holder = {
     "light_mode" : {
         "background" : "#141c29",
         "color" : "#e0e0e0",
-        "glow" : "#273a55",
+        "glow" : "#1e2c41",
         "shadow" : "#000",
         "background-2" : "#0b111a",
         "color-2" : "#cfcfcf",
@@ -38,10 +38,60 @@ var color_holder = {
         "color-2" : "#121a0d",
         "glow-2" : "#81d370",
         "shadow-2" : "#6cb35e"
+    },
+    "sky" : {
+        "background" : "#95cef0",
+        "color" : "#253650",
+        "glow" : "#b5dff7",
+        "shadow" : "#789fb6",
+        "background-2" : "#86bbda",
+        "color-2" : "#0b111a",
+        "glow-2" : "#aee0fd",
+        "shadow-2" : "#6799b6"
+    },
+    "pink" : {
+        "background" : "#F48989",
+        "color" : "#253650",
+        "glow" : "#ff9e9e",
+        "shadow" : "#d36e6e",
+        "background-2" : "#e97c7c",
+        "color-2" : "#0b111a",
+        "glow-2" : "#fda1a1",
+        "shadow-2" : "#cc6c6c"
+    },
+    "off-yellow" : {
+        "background" : "#dfd4a4",
+        "color" : "#253650",
+        "glow" : "#f5e7b4",
+        "shadow" : "#c9bd8b",
+        "background-2" : "#dacd96",
+        "color-2" : "#0b111a",
+        "glow-2" : "#f5e7b4",
+        "shadow-2" : "#c9bd8b"
+    },
+    "yellow" : {
+        "background" : "#ebd558",
+        "color" : "#253650",
+        "glow" : "#ffea71",
+        "shadow" : "#ccb94c",
+        "background-2" : "#d6c250",
+        "color-2" : "#0b111a",
+        "glow-2" : "#ffea71",
+        "shadow-2" : "#ccb94c"
+    },
+    "purple" : {
+        "background" : "#7b4098",
+        "color" : "#b4b3b3",
+        "glow" : "#8e50ad",
+        "shadow" : "#673481",
+        "background-2" : "#733c8f",
+        "color-2" : "#b4b3b3",
+        "glow-2" : "#8e50ad",
+        "shadow-2" : "#673481"
     }
 };
 
-var color_list = ["green", "red"];
+var color_list = ["sky", "purple", "off-yellow", "pink", "green", "yellow", "red"];
 var last_choosed_from_picker = 0;
 var color_now = 0;
 var last_theme = "light_mode";

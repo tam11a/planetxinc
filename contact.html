@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Event Management | Planet X Inc.</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="statics/icons/planetx-icon/planet-x-logo.png" type="image/png">
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/color-pallate.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/font.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/header.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/container.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/toogle-button.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/neumorphism.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/cube.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/profile-card.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/client-card.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/color-picker.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='statics/css/responsive.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src='statics/js/main.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Notice -->
+    <div class="msg-top centered neumorph-box as-0">
+        The Website is Under Construction.
+    </div>
+    <!-- Sticky Header -->
+    <header class="centered neumorph-box-cradius" id="myHeader">
+        <a class="h-icon" href="index.html">
+            <!-- neumorph-box-cradius -->
+            <img src="statics/icons/planetx-icon/planet-x-logo.png">
+        </a>
+        <ul class="h-nav">
+            <a href="index.html#home-nav"><li>home</li></a>
+            <a href="index.html#services-nav"><li>our services</li></a>
+            <a href="index.html#about-nav"><li>about us</li></a>
+            <a href="index.html#clients-nav"><li>our clients</li></a>
+            <a href="index.html#contact-nav"><li>contact</li></a>
+        </ul>
+        <div class="color-picker-dropdown unselectable neumorph-btn-cradius" onclick="themefrompicker()">
+            <i class="material-icons">palette</i>
+        </div>
+        <div class="toggle-container unselectable">
+            <div class="toggle-circle neumorph-box-cradius"> <i class="material-icons toggle_theme_icon">dark_mode</i>
+            </div>
+            <div onclick="toggleTheme()" class="neumorph-box-inner-cradius toggle-btn"></div>
+        </div>
+    </header>
+    <!-- Scrollable Body -->
+    <div class="body-container" id="myBody">
+        <div class="container-child" id="whyus">
+            <div class="centered-2 flex-x-to-y">
+                <div class="text-box other-txtbx whybox quarter-div">
+                    <h3><h1 class="hxt">Contact Us</h1></h3>
+                </div>
+                <div class="text-box other-txtbx whybox border-left quarter-div mg-on-phone">
+                    <h3>Phone</h3>
+
+                    <p>+8801765258486</p>
+                    <p>+8801************</p>
+                    <p>+8801************</p>
+
+                    <h3>Email</h3>
+
+                    <p>info@planetxinc.xyz</p>
+                    <p>****@planetxinc.xyz</p>
+                    <p>****@planetxinc.xyz</p>
+
+                </div> 
+                <form class="short-msg-form quarter-div">
+                    <label><h2>Get in Touch</h2></label>
+                    <input type="email" name="email" class="neumorph-box-inner" placeholder="example@gmail.com" autocomplete="off" >
+                    <textarea name="message" class="neumorph-box-inner" placeholder="Aa..."></textarea>
+                    <button type="submit" class="neumorph-btn">Send</button>
+                </form>   
+            </div>
+        </div>
+        <div class="container-child" id="whyus">
+            <div class="centered-2 flex-x-to-y">
+                <div class="text-box other-txtbx whybox quarter-div">
+                    <h3><h1 class="hide-on-phone">Meet Us</h1></h3>
+                </div>
+                <div class="neumorph-box map-container">
+                    <div class="map-2 neumorph-box-inner">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1912236771554!2d90.41250031452478!3d23.776203984576615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c70c238f1ee1%3A0xd26985a110f395b9!2sPlanet%20X%20Inc.!5e0!3m2!1sen!2sbd!4v1614783634953!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-child dark-child dark-wave-2 footer-div neumorph-box-cradius" id="contact-nav">
+            <div class="anObj quarter-div">
+                <!-- Behuda Object -->
+            </div>
+            <div class="quarter-div container-col-flex footer-shortcuts">
+                <a href="index.html#services-nav">Our Services</a>
+                <a href="index.html#about-nav">Our Team</a>
+                <a href="contact.html">Contact</a>
+                <p class="card-icons">
+                    <a href="#"><i class="fa fa-facebook card-icon"></i></a>
+                    <a href="#"><i class="fa fa-instagram card-icon"></i></a>
+                    <a href="#"><i class="fa fa-linkedin card-icon"></i></a>
+                </p>
+                <p class="copyright-issue as-0">Planet X Inc. &copy; Copyright 2021</p>
+            </div>
+            <div class="anObj quarter-div">
+                <!-- Behuda Object -->
+            </div>
+        </div>        
+    </div>
+    
+    <script src="statics/js/stickyHeader.js"></script>
+    <script src="statics/js/toggle_theme.js"></script>
+    <script src="statics/js/services_hover.js"></script>
+</body>
+
+</html>
