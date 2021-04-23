@@ -4,7 +4,8 @@
     button,
     input,
     textarea,
-    .toggle-btn{
+    .toggle-btn,
+    a{
         cursor: none;
     }
     .hxt-size{
