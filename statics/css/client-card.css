@@ -39,17 +39,19 @@
 .client-card-small{
     padding: 0;
     flex: 1;
-    filter: grayscale(100%);
     transition: filter 0.6s;
+}
+.client-card-small > img{
+    filter: grayscale(100%);
 }
 .client-card-small-2{
     padding: 0;
     flex: 1;
     max-width: 200px;
 }
-.client-card-small:hover{
+.client-card-small:hover > img{
     filter: grayscale(0);
-    transition: filter 0.6s;
+    transition: filter 0.1s;
 }
 .pad-10-child > *{
     padding: 20px;

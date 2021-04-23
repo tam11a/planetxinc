@@ -3,10 +3,19 @@
     --primary-color-light: #253650;
     --primary-shadow-glow-light: #fff;
     --primary-shadow-dark-light: #b4b3b3;
-    
+
     --secondary-bg-light: #cfcfcf;
     --secondary-color-light: #0b111a;
     --secondary-shadow-glow-light: #fff;
     --secondary-shadow-dark-light: #929292;
-    
 }
+
+/*--primary-bg-light: #e0e0e0;
+--primary-color-light: #253650;
+--primary-shadow-glow-light: #fff;
+--primary-shadow-dark-light: #b4b3b3;
+
+--secondary-bg-light: #cfcfcf;
+--secondary-color-light: #0b111a;
+--secondary-shadow-glow-light: #fff;
+--secondary-shadow-dark-light: #929292;*/
