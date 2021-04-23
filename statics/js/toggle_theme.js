@@ -73,8 +73,10 @@ function toggleTheme(){
 }
 
 function themefrompicker(){
-    last_theme = document.querySelector("i.toggle_theme_icon").innerHTML;
-    document.querySelector("i.toggle_theme_icon").innerHTML = "block";
+    if(document.querySelector("i.toggle_theme_icon").innerHTML !== "block"){
+        last_theme = document.querySelector("i.toggle_theme_icon").innerHTML;
+        document.querySelector("i.toggle_theme_icon").innerHTML = "block";
+    }
     if(color_now === 0 && last_choosed_from_picker === 0){
         color_now = 0;
     } else {
