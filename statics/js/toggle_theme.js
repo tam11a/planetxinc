@@ -44,15 +44,20 @@ var color_holder = {
 var color_list = ["green", "red"];
 var last_choosed_from_picker = 0;
 var color_now = 0;
+var last_theme = "light_mode";
 
 function toggleTheme(){
     last_choosed_from_picker = 0;
     var root = document.querySelector(':root');
-    document.querySelector(".toggle-circle").classList.toggle("toggle-circle-checked");
+    var toggle_theme_icon = document.querySelector("i.toggle_theme_icon");
+    if(toggle_theme_icon.innerHTML !== "block")
+        document.querySelector(".toggle-circle").classList.toggle("toggle-circle-checked");
     var toggle_theme_icon = document.querySelector("i.toggle_theme_icon");
     if(toggle_theme_icon.innerHTML === "dark_mode"){
         toggle_theme_icon.innerHTML = "light_mode";
-    }else{
+    } else if(toggle_theme_icon.innerHTML === "block"){
+        toggle_theme_icon.innerHTML = last_theme;
+    } else{
         toggle_theme_icon.innerHTML = "dark_mode";
     }
     var toMode = toggle_theme_icon.innerHTML;
@@ -68,6 +73,8 @@ function toggleTheme(){
 }
 
 function themefrompicker(){
+    last_theme = document.querySelector("i.toggle_theme_icon").innerHTML;
+    document.querySelector("i.toggle_theme_icon").innerHTML = "block";
     if(color_now === 0 && last_choosed_from_picker === 0){
         color_now = 0;
     } else {
