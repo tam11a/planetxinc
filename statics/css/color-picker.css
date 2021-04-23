@@ -8,3 +8,8 @@
     justify-content: center;
     cursor: pointer;
 }
+@media (max-width: 540px) {
+    .color-picker-dropdown{
+        display: none;
+    }
+}
