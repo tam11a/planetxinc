@@ -32,6 +32,11 @@ textarea{
     font-weight: bold;
     color: var(--primary-color-light);
 }
+input::placeholder,
+textarea::placeholder{
+    color: var(--primary-color-light);
+    opacity: 0.7;
+}
 .neumorph-box,
 .neumorph-btn,
 .neumorph-btn-inner:hover{
