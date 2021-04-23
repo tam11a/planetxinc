@@ -71,6 +71,7 @@
     }
     .container-col-flex{
         margin-top: 100px;
+        
     }
     .container-child{
         flex-direction: column;
@@ -81,7 +82,6 @@
     .half-div,
     .quarter-div{
         width: 90%;
-        
     }
     .text-box{
         margin-top: 50%;
