@@ -43,4 +43,7 @@ header{
     .h-nav{
         display: none;
     }
+    .h-icon{
+        flex: 1;
+    }
 }
